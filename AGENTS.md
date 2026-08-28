@@ -1,33 +1,46 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# Instruções do projeto de documentação
 
-# Documentation project instructions
+## Sobre este projeto
 
-## About this project
+- Site de documentação da **plataforma Miggo** (`app.miggomkt.com.br`), feito em [Mintlify](https://mintlify.com).
+- Público-alvo: **clientes finais da Miggo**. Não é documentação de API nem de uso interno.
+- Páginas são arquivos MDX com frontmatter YAML. A configuração fica em `docs.json`.
+- Todo o conteúdo é em **português do Brasil**.
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+## Terminologia
 
-## Terminology
+Use sempre o nome que aparece no menu da plataforma:
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+| Use | Não use |
+| --- | --- |
+| Meus conteúdos | Kanban, board, quadro de posts |
+| Minhas fotos | Biblioteca de mídias, media library |
+| Ideias de post | Sugestão de pauta, agenda |
+| Minha Marca | Briefing, brandkit |
+| Meu plano | Faturamento, billing |
+| Calendário | Calendário editorial (ok no corpo do texto) |
+| Estilo visual | Grid, mosaico (ok no corpo do texto) |
 
-## Style preferences
+Outros termos: "post" e "conteúdo" são intercambiáveis; "equipe Miggo" (nunca "nós"
+da empresa em primeira pessoa nos títulos).
 
-{/* Add any project-specific style rules below */}
+## Preferências de estilo
 
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
+- Voz ativa e segunda pessoa ("você").
+- Frases curtas — uma ideia por frase.
+- Títulos em caixa baixa, estilo frase.
+- **Negrito** para elementos da interface: clique em **Conectar**.
+- `Código` para nomes de arquivo, comandos e caminhos.
+- Links diretos para a plataforma sempre no formato
+  `https://app.miggomkt.com.br/app/<rota>`, seguindo as rotas reais do frontend.
 
-## Content boundaries
+## Limites de conteúdo
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- **Não documente áreas administrativas** (`/admin/*`): gestão de clientes,
+  faturamento global, logs de integração, gerenciamento de time e planos.
+- Não cite dados de clientes, métricas globais da plataforma nem valores de
+  faturamento.
+- Nunca instrua o usuário a compartilhar senha, código de verificação ou dados de
+  cartão.
+- Não invente funcionalidades: confirme no frontend (`frontend-miggo`) ou no
+  backend (`backend-miggo`) antes de documentar um comportamento.
