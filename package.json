@@ -1,0 +1,24 @@
+{
+  "name": "miggo-docs",
+  "version": "1.0.0",
+  "description": "Site público de documentação da plataforma Miggo (`app.miggomkt.com.br`), publicado com [Mintlify](https://mintlify.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miggo-Marketing/miggo-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Miggo-Marketing/miggo-docs/issues"
+  },
+  "homepage": "https://github.com/Miggo-Marketing/miggo-docs#readme",
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

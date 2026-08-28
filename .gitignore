@@ -1,0 +1,4 @@
+# Sessão do navegador usada para capturar os prints — contém cookies de login.
+.auth/
+node_modules/
+images/_relatorio.json

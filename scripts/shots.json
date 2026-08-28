@@ -1,0 +1,13 @@
+[
+  { "file": "signin",             "path": "/signin",                "titulo": "Tela de login",        "auth": false },
+  { "file": "dashboard",          "path": "/app",                   "titulo": "Dashboard" },
+  { "file": "meus-conteudos",     "path": "/app/content",           "titulo": "Meus conteúdos" },
+  { "file": "calendario",         "path": "/app/editorial-calendar","titulo": "Calendário editorial" },
+  { "file": "ideias-de-post",     "path": "/app/agenda/sugestao",   "titulo": "Ideias de post" },
+  { "file": "minhas-fotos",       "path": "/app/media-library",     "titulo": "Minhas fotos" },
+  { "file": "minha-marca",        "path": "/app/briefing",          "titulo": "Minha Marca" },
+  { "file": "redes-sociais",      "path": "/app/social-networks",   "titulo": "Redes Sociais" },
+  { "file": "meu-plano",          "path": "/app/billing",           "titulo": "Meu plano" },
+  { "file": "analytics",          "path": "/app/analytics",         "titulo": "Analytics" },
+  { "file": "suporte",            "path": "/app/support",           "titulo": "Suporte" }
+]

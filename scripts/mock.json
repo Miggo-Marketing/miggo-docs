@@ -1,0 +1,30 @@
+{
+  "_comentario": "Rede de seguranca aplicada no DOM antes de cada print. A identidade da conta ja foi trocada no banco para 'Aurora Digital'; aqui ficam so os residuos. NAO inclua 'Miggo' nas substituicoes: e a marca da propria plataforma e precisa continuar visivel nos prints. Ordem: padroes (e-mail, telefone, documento) e depois substituicoes literais.",
+
+  "substituicoes": {
+    "Alisson Lima": "Marina Alves",
+    "Alisson": "Marina",
+    "alisson": "marina",
+    "ibarco.oficial": "auroradigital.oficial",
+    "Ibarco Passagens": "Aurora Digital",
+    "Ibarco": "Aurora Digital",
+    "ibarco": "Aurora Digital",
+    "IBARCO": "AURORA DIGITAL"
+  },
+
+  "identidade": {
+    "usuario": "Marina Alves",
+    "email": "contato@auroradigital.com.br",
+    "telefone": "(11) 98765-4321",
+    "documento": "00.000.000/0001-00"
+  },
+
+  "ocultar": [],
+
+  "_termosProibidos": "Verificacao final: se qualquer um destes aparecer na tela JA mascarada, o print e marcado como VAZOU no relatorio. Sao os dados reais da conta usada na captura.",
+  "termosProibidos": ["ibarco", "alisson", "991923640", "5584"],
+
+
+  "_preservarImagens": "Toda imagem e video servidos de /media/ viram placeholder, porque o acervo da conta tem artes de marca e fotos de pessoas reais. Passam intactos so os que casarem com estes trechos de URL: 'demo-' sao as artes sinteticas dos posts; o hash e a logo ficticia (o upload_to do BrandLogo randomiza o nome, entao nao da para casar por 'aurora-digital').",
+  "preservarImagens": ["demo-", "ZliXfA7Bi1Y7synSHZImVQaw8T2SnXIf"]
+}
