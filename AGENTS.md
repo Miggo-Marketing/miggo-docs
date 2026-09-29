@@ -3,6 +3,9 @@
 ## Sobre este projeto
 
 - Site de documentação da **plataforma Miggo** (`app.miggomkt.com.br`), feito em [Mintlify](https://mintlify.com).
+- Publicado em **`ajuda.miggomkt.com.br`** — a central de ajuda do cliente, pública e sem login.
+  É o link do item **Central de ajuda** no menu da plataforma. A documentação do
+  desenvolvedor é outro site (`developer.miggomkt.com.br`) e não se mistura com esta.
 - Público-alvo: **clientes finais da Miggo**. Não é documentação de API nem de uso interno.
 - Páginas são arquivos MDX com frontmatter YAML. A configuração fica em `docs.json`.
 - Todo o conteúdo é em **português do Brasil**.
@@ -44,3 +47,14 @@ da empresa em primeira pessoa nos títulos).
   cartão.
 - Não invente funcionalidades: confirme no frontend (`frontend-miggo`) ou no
   backend (`backend-miggo`) antes de documentar um comportamento.
+
+## Sincronia com o assistente de suporte
+
+O **Miggo AI** (chat da Central de Suporte, dentro da plataforma) responde a partir
+de um prompt de sistema que vive no backend:
+`backend-miggo/app/account/support_views.py` → `SUPPORT_SYSTEM_PROMPT`.
+
+Esse prompt é escrito a partir **desta** documentação: mesma terminologia, mesmas
+rotas (`/app/<rota>`) e links para os artigos correspondentes em
+`ajuda.miggomkt.com.br`. Ao mudar um comportamento documentado aqui, atualize o
+prompt junto — senão o chat passa a orientar diferente do que a central de ajuda diz.
