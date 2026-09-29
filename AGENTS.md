@@ -15,10 +15,12 @@ Use sempre o nome que aparece no menu da plataforma:
 | --- | --- |
 | Meus conteúdos | Kanban, board, quadro de posts |
 | Minhas fotos | Biblioteca de mídias, media library |
-| Ideias de post | Sugestão de pauta, agenda |
-| Minha Marca | Briefing, brandkit |
+| Ideias de conteúdo | Sugestão de pauta, ideias de post, agenda |
+| Minha marca | Briefing, brandkit |
 | Meu plano | Faturamento, billing |
-| Calendário | Calendário editorial (ok no corpo do texto) |
+| Meu painel | Dashboard |
+| Meus resultados | Analytics, Performance |
+| Meu calendário | Calendário, calendário editorial (ok no corpo do texto) |
 | Estilo visual | Grid, mosaico (ok no corpo do texto) |
 
 Outros termos: "post" e "conteúdo" são intercambiáveis; "equipe Miggo" (nunca "nós"
