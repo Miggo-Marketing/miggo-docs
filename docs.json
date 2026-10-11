@@ -21,6 +21,12 @@
         ]
       },
       {
+        "group": "Novidades",
+        "pages": [
+          "novidades"
+        ]
+      },
+      {
         "group": "Sua marca",
         "pages": [
           "marca/minha-marca",
@@ -82,6 +88,10 @@
   },
   "navbar": {
     "links": [
+      {
+        "label": "v2.1.0",
+        "href": "/novidades"
+      },
       {
         "label": "Suporte",
         "href": "mailto:oie@miggomkt.com.br"
