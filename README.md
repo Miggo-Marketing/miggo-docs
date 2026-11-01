@@ -3,22 +3,23 @@
 Site público de documentação da plataforma Miggo (`app.miggomkt.com.br`),
 publicado com [Mintlify](https://mintlify.com).
 
-O conteúdo é voltado para **clientes finais** e cobre onboarding, marca, produção
-e aprovação de conteúdo, redes sociais, plano e suporte.
+O conteúdo é voltado para **clientes finais** e agências. Cada artigo cobre uma
+tarefa. Ao mover ou apagar uma página, crie o redirect em `docs.json`.
 
 ## Estrutura
 
 ```
-docs.json            Configuração do site (tema, cores, navegação)
-index.mdx            Página inicial
-quickstart.mdx       Primeiros passos
-onboarding.mdx       Etapas do fluxo de cadastro
-visao-geral.mdx      Tour do menu da plataforma
-marca/               Minha Marca e estilo visual
-conteudo/            Conteúdos, aprovação, calendário, ideias e fotos
-redes/               Conexão de redes sociais e publicação
-conta/               Plano, perfil e notificações
-ajuda/               Suporte, FAQ e solução de problemas
+docs.json            Configuração do site (tema, cores, navegação, redirects)
+index.mdx            Página inicial (hub por assunto)
+novidades.mdx        Histórico de versões
+comecar/             Como funciona, cadastro, primeiros passos e menu
+marca/               Minha marca e estilo visual
+conteudo/            Meus conteúdos, aprovação, ajuste, calendário, ideias e fotos
+redes/               Conexão das redes, WhatsApp e publicação
+resultados/          Meus resultados e Meu painel
+conta/               Entrar, senha, perfil, plano, pagamento e benefícios
+ajuda/               Problemas por sintoma, FAQ, segurança e suporte
+agencias/            Área da agência (aba Para agências)
 logo/                Logo da Miggo (versões clara e escura)
 images/              Prints das telas usados nas páginas
 scripts/             Captura automatizada dos prints (não vai para o site)
