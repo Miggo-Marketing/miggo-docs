@@ -59,6 +59,12 @@
         ]
       },
       {
+        "group": "Para agências",
+        "pages": [
+          "agencias/area-da-agencia"
+        ]
+      },
+      {
         "group": "Ajuda",
         "pages": [
           "ajuda/suporte",
