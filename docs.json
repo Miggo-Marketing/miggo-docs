@@ -113,7 +113,14 @@
             "pages": [
               "agencias/gerenciar-membros",
               "agencias/personalizar-marca-da-agencia",
+              "agencias/usar-endereco-proprio-da-agencia",
               "agencias/contratar-ou-trocar-plano-da-agencia"
+            ]
+          },
+          {
+            "group": "Problemas e dúvidas",
+            "pages": [
+              "agencias/resolver-problemas-da-agencia"
             ]
           }
         ]

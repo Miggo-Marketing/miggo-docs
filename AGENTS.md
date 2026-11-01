@@ -25,6 +25,10 @@ Use sempre o nome que aparece no menu da plataforma:
 Exceção: o texto exato de um botão ou menu (como **Editar briefing** ou o grupo
 **Dashboard** do menu) entra como está na tela.
 
+A tabela vale para o menu do cliente. O menu da agência (`agencias/`) tem rótulos
+próprios (**Briefing**, **Calendário editorial**, **Biblioteca de Mídias**,
+**Identidade Visual**, **Analytics**), que entram como estão na tela.
+
 Outros termos: "post" e "conteúdo" são intercambiáveis; "equipe Miggo" (nunca "nós"
 da empresa em primeira pessoa nos títulos).
 
