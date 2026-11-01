@@ -16,10 +16,10 @@ comecar/             Como funciona, cadastro, primeiros passos e menu
 marca/               Minha marca e estilo visual
 conteudo/            Meus conteúdos, aprovação, ajuste, calendário, ideias e fotos
 redes/               Conexão das redes, WhatsApp e publicação
-resultados/          Meus resultados e Meu painel
+resultados/          Meus resultados
 conta/               Entrar, senha, perfil, plano, pagamento e benefícios
 ajuda/               Problemas por sintoma, FAQ, segurança e suporte
-agencias/            Área da agência (aba Para agências)
+agencias/            Área da agência, por tarefa, e problemas da agência (aba Para agências)
 logo/                Logo da Miggo (versões clara e escura)
 images/              Prints das telas usados nas páginas
 scripts/             Captura automatizada dos prints (não vai para o site)
