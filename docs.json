@@ -10,66 +10,118 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Comece por aqui",
-        "pages": [
-          "index",
-          "quickstart",
-          "onboarding",
-          "visao-geral"
+        "tab": "Central de ajuda",
+        "groups": [
+          {
+            "group": "Comece por aqui",
+            "pages": [
+              "index",
+              "comecar/como-funciona",
+              "comecar/criar-sua-conta",
+              "comecar/retomar-o-cadastro",
+              "comecar/primeiros-passos",
+              "comecar/conhecer-o-menu"
+            ]
+          },
+          {
+            "group": "Sua marca",
+            "pages": [
+              "marca/revisar-informacoes-da-marca",
+              "marca/atualizar-marca-pelo-instagram",
+              "marca/enviar-materiais-da-marca",
+              "marca/aprovar-estilo-visual"
+            ]
+          },
+          {
+            "group": "Conteúdos",
+            "pages": [
+              "conteudo/acompanhar-meus-conteudos",
+              "conteudo/aprovar-um-post",
+              "conteudo/pedir-ajuste-em-um-post",
+              "conteudo/entender-meu-calendario",
+              "conteudo/sugerir-uma-ideia-de-conteudo",
+              "conteudo/enviar-fotos-e-videos"
+            ]
+          },
+          {
+            "group": "Redes sociais e publicação",
+            "pages": [
+              "redes/conectar-uma-rede-social",
+              "redes/conectar-pelo-celular",
+              "redes/ativar-aprovacao-pelo-whatsapp",
+              "redes/desconectar-ou-reconectar-uma-rede",
+              "redes/como-a-publicacao-funciona"
+            ]
+          },
+          {
+            "group": "Resultados",
+            "pages": [
+              "resultados/meus-resultados"
+            ]
+          },
+          {
+            "group": "Conta e plano",
+            "pages": [
+              "conta/entrar-na-plataforma",
+              "conta/redefinir-senha",
+              "conta/editar-perfil",
+              "conta/assinar-ou-trocar-de-plano",
+              "conta/atualizar-forma-de-pagamento",
+              "conta/cancelar-assinatura",
+              "conta/fim-do-teste-gratuito",
+              "conta/notificacoes",
+              "conta/meus-beneficios"
+            ]
+          },
+          {
+            "group": "Problemas e dúvidas",
+            "pages": [
+              "ajuda/solucao-de-problemas",
+              "ajuda/post-nao-foi-publicado",
+              "ajuda/nao-recebo-posts-no-whatsapp",
+              "ajuda/erro-ao-conectar-rede",
+              "ajuda/nao-consigo-entrar",
+              "ajuda/acesso-bloqueado",
+              "ajuda/nao-consigo-enviar-ideia",
+              "ajuda/perguntas-frequentes",
+              "ajuda/seguranca-da-conta",
+              "ajuda/falar-com-o-suporte"
+            ]
+          }
         ]
       },
       {
-        "group": "Novidades",
+        "tab": "Para agências",
+        "groups": [
+          {
+            "group": "Comece por aqui",
+            "pages": [
+              "agencias/area-da-agencia",
+              "agencias/cadastrar-um-cliente"
+            ]
+          },
+          {
+            "group": "Rotina da agência",
+            "pages": [
+              "agencias/posts-parados"
+            ]
+          },
+          {
+            "group": "Configurações da agência",
+            "pages": [
+              "agencias/gerenciar-membros",
+              "agencias/personalizar-marca-da-agencia",
+              "agencias/plano-da-agencia"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Novidades",
         "pages": [
           "novidades"
-        ]
-      },
-      {
-        "group": "Sua marca",
-        "pages": [
-          "marca/minha-marca",
-          "marca/estilo-visual"
-        ]
-      },
-      {
-        "group": "Conteúdo",
-        "pages": [
-          "conteudo/meus-conteudos",
-          "conteudo/aprovacao",
-          "conteudo/calendario-editorial",
-          "conteudo/ideias-de-post",
-          "conteudo/minhas-fotos"
-        ]
-      },
-      {
-        "group": "Redes sociais",
-        "pages": [
-          "redes/conectar",
-          "redes/publicacao"
-        ]
-      },
-      {
-        "group": "Conta e plano",
-        "pages": [
-          "conta/meu-plano",
-          "conta/perfil-e-acesso",
-          "conta/notificacoes"
-        ]
-      },
-      {
-        "group": "Para agências",
-        "pages": [
-          "agencias/area-da-agencia"
-        ]
-      },
-      {
-        "group": "Ajuda",
-        "pages": [
-          "ajuda/suporte",
-          "ajuda/perguntas-frequentes",
-          "ajuda/solucao-de-problemas"
         ]
       }
     ],
@@ -82,7 +134,7 @@
         },
         {
           "anchor": "Falar com o suporte",
-          "href": "mailto:oie@miggomkt.com.br",
+          "href": "/ajuda/falar-com-o-suporte",
           "icon": "life-ring"
         }
       ]
@@ -100,7 +152,7 @@
       },
       {
         "label": "Suporte",
-        "href": "mailto:oie@miggomkt.com.br"
+        "href": "/ajuda/falar-com-o-suporte"
       }
     ],
     "primary": {
@@ -110,11 +162,78 @@
     }
   },
   "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude"]
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
   },
   "footer": {
     "socials": {
       "website": "https://miggomkt.com.br"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/quickstart",
+      "destination": "/comecar/primeiros-passos"
+    },
+    {
+      "source": "/onboarding",
+      "destination": "/comecar/criar-sua-conta"
+    },
+    {
+      "source": "/visao-geral",
+      "destination": "/comecar/conhecer-o-menu"
+    },
+    {
+      "source": "/marca/minha-marca",
+      "destination": "/marca/revisar-informacoes-da-marca"
+    },
+    {
+      "source": "/marca/estilo-visual",
+      "destination": "/marca/aprovar-estilo-visual"
+    },
+    {
+      "source": "/conteudo/meus-conteudos",
+      "destination": "/conteudo/acompanhar-meus-conteudos"
+    },
+    {
+      "source": "/conteudo/aprovacao",
+      "destination": "/conteudo/aprovar-um-post"
+    },
+    {
+      "source": "/conteudo/calendario-editorial",
+      "destination": "/conteudo/entender-meu-calendario"
+    },
+    {
+      "source": "/conteudo/ideias-de-post",
+      "destination": "/conteudo/sugerir-uma-ideia-de-conteudo"
+    },
+    {
+      "source": "/conteudo/minhas-fotos",
+      "destination": "/conteudo/enviar-fotos-e-videos"
+    },
+    {
+      "source": "/redes/conectar",
+      "destination": "/redes/conectar-uma-rede-social"
+    },
+    {
+      "source": "/redes/publicacao",
+      "destination": "/redes/como-a-publicacao-funciona"
+    },
+    {
+      "source": "/conta/meu-plano",
+      "destination": "/conta/assinar-ou-trocar-de-plano"
+    },
+    {
+      "source": "/conta/perfil-e-acesso",
+      "destination": "/conta/entrar-na-plataforma"
+    },
+    {
+      "source": "/ajuda/suporte",
+      "destination": "/ajuda/falar-com-o-suporte"
+    }
+  ]
 }
