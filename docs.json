@@ -50,7 +50,7 @@
             "pages": [
               "redes/conectar-uma-rede-social",
               "redes/conectar-pelo-celular",
-              "redes/ativar-aprovacao-pelo-whatsapp",
+              "redes/receber-posts-no-whatsapp",
               "redes/desconectar-ou-reconectar-uma-rede",
               "redes/como-a-publicacao-funciona"
             ]
@@ -58,7 +58,7 @@
           {
             "group": "Resultados",
             "pages": [
-              "resultados/meus-resultados"
+              "resultados/acompanhar-meus-resultados"
             ]
           },
           {
@@ -72,7 +72,7 @@
               "conta/cancelar-assinatura",
               "conta/fim-do-teste-gratuito",
               "conta/notificacoes",
-              "conta/meus-beneficios"
+              "conta/usar-beneficios-de-assinante"
             ]
           },
           {
@@ -86,7 +86,7 @@
               "ajuda/acesso-bloqueado",
               "ajuda/nao-consigo-enviar-ideia",
               "ajuda/perguntas-frequentes",
-              "ajuda/seguranca-da-conta",
+              "ajuda/proteger-sua-conta",
               "ajuda/falar-com-o-suporte"
             ]
           }
@@ -98,14 +98,14 @@
           {
             "group": "Comece por aqui",
             "pages": [
-              "agencias/area-da-agencia",
+              "agencias/conhecer-area-da-agencia",
               "agencias/cadastrar-um-cliente"
             ]
           },
           {
             "group": "Rotina da agência",
             "pages": [
-              "agencias/posts-parados"
+              "agencias/destravar-posts-parados"
             ]
           },
           {
@@ -113,7 +113,7 @@
             "pages": [
               "agencias/gerenciar-membros",
               "agencias/personalizar-marca-da-agencia",
-              "agencias/plano-da-agencia"
+              "agencias/contratar-ou-trocar-plano-da-agencia"
             ]
           }
         ]
