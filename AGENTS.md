@@ -15,11 +15,19 @@ Use sempre o nome que aparece no menu da plataforma:
 | --- | --- |
 | Meus conteúdos | Kanban, board, quadro de posts |
 | Minhas fotos | Biblioteca de mídias, media library |
-| Ideias de post | Sugestão de pauta, agenda |
-| Minha Marca | Briefing, brandkit |
+| Ideias de conteúdo | Ideias de post, sugestão de pauta, agenda |
+| Minha marca | Briefing, brandkit, Brand Kit |
 | Meu plano | Faturamento, billing |
-| Calendário | Calendário editorial (ok no corpo do texto) |
-| Estilo visual | Grid, mosaico (ok no corpo do texto) |
+| Meu calendário | Calendário editorial (ok no corpo do texto) |
+| Estilo visual | Grid, mosaico |
+| Meu painel / Meus resultados | Dashboard, Analytics |
+
+Exceção: o texto exato de um botão ou menu (como **Editar briefing** ou o grupo
+**Dashboard** do menu) entra como está na tela.
+
+A tabela vale para o menu do cliente. O menu da agência (`agencias/`) tem rótulos
+próprios (**Briefing**, **Calendário editorial**, **Biblioteca de Mídias**,
+**Identidade Visual**, **Analytics**), que entram como estão na tela.
 
 Outros termos: "post" e "conteúdo" são intercambiáveis; "equipe Miggo" (nunca "nós"
 da empresa em primeira pessoa nos títulos).
